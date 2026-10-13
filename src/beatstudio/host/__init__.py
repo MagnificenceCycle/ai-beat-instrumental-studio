@@ -1,0 +1,1 @@
+"""Core host: lifecycle, context, pipeline orchestration."""
