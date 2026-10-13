@@ -1,0 +1,23 @@
+[host]
+name = "ai-beat-instrumental-studio"
+sample_rate = 48000
+buffer_frames = 512
+render_dir = "renders"
+run_dir = "runs"
+
+[loader]
+plugin_paths = ["beatstudio.plugins"]
+require_signature = false
+allowlist = ["drums-neural", "bassline-lm", "keys-diffusion", "mixdown-glue"]
+disabled = []
+
+[audio]
+backend = "sounddevice"
+default_bpm = 92
+default_key = "F#min"
+swing = 0.14
+
+[render]
+stem_format = "wav"
+bit_depth = 24
+normalize_lufs = -14.0
