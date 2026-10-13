@@ -1,0 +1,1 @@
+"""Synthesis + inference models used by generator plugins."""
