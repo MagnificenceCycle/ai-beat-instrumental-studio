@@ -1,0 +1,1 @@
+"""Shared contracts. Plugins import from here, never from services."""
