@@ -1,0 +1,25 @@
+# Plugin allowlist + per-plugin overrides. Loader reads this at boot.
+
+[[plugins]]
+id = "drums-neural"
+module = "beatstudio.plugins.drums_neural"
+entry = "DrumsNeuralPlugin"
+enabled = true
+
+[[plugins]]
+id = "bassline-lm"
+module = "beatstudio.plugins.bassline_lm"
+entry = "BasslineLmPlugin"
+enabled = true
+
+[[plugins]]
+id = "keys-diffusion"
+module = "beatstudio.plugins.keys_diffusion"
+entry = "KeysDiffusionPlugin"
+enabled = true
+
+[[plugins]]
+id = "mixdown-glue"
+module = "beatstudio.plugins.mixdown_glue"
+entry = "MixdownGluePlugin"
+enabled = true
