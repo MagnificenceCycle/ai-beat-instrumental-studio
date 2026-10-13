@@ -1,0 +1,32 @@
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# beat studio runtime
+runs/
+cache/
+renders/*.wav
+renders/*.flac
+*.stem.wav
+*.beat.mid
+
+# model weights (large, pulled via tools/fetch_models.py)
+models/weights/*.onnx
+models/weights/*.pt
+models/weights/*.safetensors
+
+# editor / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# secrets
+.env
+config/local.toml
