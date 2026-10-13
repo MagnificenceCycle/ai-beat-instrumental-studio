@@ -1,0 +1,1 @@
+"""Built-in generator plugins shipped with the host."""
